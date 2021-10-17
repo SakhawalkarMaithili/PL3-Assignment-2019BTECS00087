@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed code in HTML</title>
+
+    <style>
+        .col-3
+        {
+            border: 3px solid rgb(218, 218, 218);
+            width: 30%;
+            margin: 30px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        .col-2
+        {
+            border: 3px solid rgb(218, 218, 218);
+            width: 40%;
+            margin: 40px;
+            padding: 5px;
+            border-radius: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color: darkorange; padding: 5px; border-radius: 5px;"><h1 style="text-align: center; text-decoration: underline;">Min Max element in array</h1></header>
+
+    <br>
+
+    <h2><strong>Problem statement - </strong></h2>
+    <h4>Write a program in any language to find the maximum and minimum element in an array.</h4>
+
+    <hr>
+
+    <h3>Code</h3>
+
+    <code style="display: block; white-space: pre-wrap; background-color: rgb(224, 224, 224); border-radius: 2px;">
+        #include &ltiostream&gt
+        int main()
+        {
+            int <var>arr[5]</var>;
+            for (int <var>i</var> = 0; <var>i</var> &lt 5; <var>i</var>++)
+            {
+                cin >> <var>cin[i]</var>;
+            }
+
+            int <var>min</var> = <var>max</var> = <var>arr[0]</var>;
+            for (int <var>i</var> = 1; <var>i</var> &lt 5; <var>i</var>++))
+            {
+                if (<var>arr[i]</var> &lt <var>min</var>)
+                    <var>min</var> = arr[i];
+                else if (<var>arr[i]</var> &gt <var>max</var>)
+                    <var>max</var> = arr[i];
+            }
+
+            cout << <var>min</var> << " " << <var>max</var>;
+        }
+        
+    </code>
+
+    <section style="display: flex;">
+        <div class="col-3">
+            <h5 style="margin-bottom: 3px;">Sample input</h5>
+            <p style="background-color: rgb(187, 181, 192); padding: 2px; margin-top: 0px;"> <kbd>21</kbd> <kbd>6</kbd> <kbd>19</kbd> <kbd>1</kbd> <kbd>-5</kbd> </p>
+        </div>
+
+        <div class="col-3">
+            <h5 style="margin-bottom: 3px;">Sample output</h5>
+            <samp style="background-color: rgb(187, 181, 192); padding: 2px; display: block;">-5 21</samp>
+        </div>
+
+        <div class="col-3">
+            <h5  style="margin-bottom: 3px;">Variables used</h5>
+            <p style="background-color: rgb(187, 181, 192); padding: 2px; display: block; margin-top: 0px;">int array, <s>int</s> iterator i, min, max</p>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Complexity -->
+    <h2><small>Complexity</small></h2>
+    <div style="display: flex;">
+        <div class="col-2">
+            <h6 style="margin: 0px; font-size: 12px;">Time Complexity -</h6>
+            <p> <s>O<sub>n<sup>2</sup></sub></s> O<sub>n</sub></p>
+        </div>
+
+        <div class="col-2">
+            <h6 style="margin: 0px; font-size: 12px;">Space Complexity -</h6>
+            <p>O<sub>1</sub></p>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2><small>Algorithm</small></h2>
+    <a href="https://www.geeksforgeeks.org/program-find-minimum-maximum-element-array/" style="color: green; font-size: large;"><strong> Click here for Algorithm</strong></a>
+
+    <footer style="background-color: rgb(54, 54, 54); color: #fff; text-align: center; margin-top: 20px;">Copyright - Maithili Sakhawalkar, 2021</footer>
+</body>
+</html>
